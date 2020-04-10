@@ -1,0 +1,15 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="userPack">
+    <text>t:100</text>
+    <text>t:100</text>
+    <text>t:100</text>
+  </view>
+  <view class="userModel">
+    <image class="img-responsive" src=""></image>
+    <text>{{motto}}</text>
+  </view>
+  <view id="userOperation" class="userOperation">
+    <button bindtap="draw">十连</button>
+  </view>
+</view>
